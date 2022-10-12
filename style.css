@@ -1,0 +1,618 @@
+.frame{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(109,131,131,1) 0%, rgba(37,30,35,0.989233193277311) 100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch{
+  background: #171616;
+  border: 10px solid #242424;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle{
+  width: 208px;
+  height: 208px;
+  border: 4px solid #F85B5B;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: circle 1s infinite;
+}
+
+.dot1{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(21deg) translateY(-95px);
+}
+
+.dot2{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(27deg) translateY(-95px);
+}
+
+.dot3{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(33deg) translateY(-95px);
+}
+
+.dot4{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(39deg) translateY(-95px);
+}
+
+.dot5{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(45deg) translateY(-95px);
+}
+
+.dot6{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(51deg) translateY(-95px);
+}
+
+.dot7{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(57deg) translateY(-95px);
+}
+
+.dot8{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(63deg) translateY(-95px);
+}
+
+.dot9{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(69deg) translateY(-95px);
+}
+
+.dot10{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(75deg) translateY(-95px);
+}
+
+.dot11{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(81deg) translateY(-95px);
+}
+
+.dot12{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(87deg) translateY(-95px);
+}
+
+.dot13{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(93deg) translateY(-95px);
+}
+
+.dot14{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(99deg) translateY(-95px);
+}
+
+.dot15{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(105deg) translateY(-95px);
+}
+
+.dot16{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(111deg) translateY(-95px);
+}
+
+.dot17{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(117deg) translateY(-95px);
+}
+
+.dot18{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(123deg) translateY(-95px);
+}
+
+.dot19{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(129deg) translateY(-95px);
+}
+
+.dot20{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(135deg) translateY(-95px);
+}
+
+.dot21{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(141deg) translateY(-95px);
+}
+
+.dot22{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(147deg) translateY(-95px);
+}
+
+.dot23{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(153deg) translateY(-95px);
+}
+
+.dot24{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(159deg) translateY(-95px);
+}
+
+.dot25{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(165deg) translateY(-95px);
+}
+
+.dot26{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(171deg) translateY(-95px);
+}
+
+.dot27{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(177deg) translateY(-95px);
+}
+
+.dot28{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(183deg) translateY(-95px);
+}
+
+.dot29{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(189deg) translateY(-95px);
+}
+
+.dot30{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(195deg) translateY(-95px);
+}
+
+.dot31{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(201deg) translateY(-95px);
+}
+
+.dot32{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(207deg) translateY(-95px);
+}
+
+.dot33{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(213deg) translateY(-95px);
+}
+
+.dot34{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(219deg) translateY(-95px);
+}
+
+.dot35{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(225deg) translateY(-95px);
+}
+
+.dot36{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(231deg) translateY(-95px);
+}
+
+.dot37{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(237deg) translateY(-95px);
+}
+
+.dot38{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(243deg) translateY(-95px);
+}
+
+.dot39{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(249deg) translateY(-95px);
+}
+
+.dot40{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(255deg) translateY(-95px);
+}
+
+.dot41{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(261deg) translateY(-95px);
+}
+
+.dot42{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(267deg) translateY(-95px);
+}
+
+.dot43{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(273deg) translateY(-95px);
+}
+
+.dot44{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(279deg) translateY(-95px);
+}
+
+.dot45{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(285deg) translateY(-95px);
+}
+
+.dot46{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(291deg) translateY(-95px);
+}
+
+.dot47{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(297deg) translateY(-95px);
+}
+
+.dot48{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(303deg) translateY(-95px);
+}
+
+.dot49{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(309deg) translateY(-95px);
+}
+
+.dot50{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(315deg) translateY(-95px);
+}
+
+.dot51{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(321deg) translateY(-95px);
+}
+
+.dot52{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(327deg) translateY(-95px);
+}
+
+.dot53{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(333deg) translateY(-95px);
+}
+
+.dot54{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(339deg) translateY(-95px);
+}
+
+.dot55{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(345deg) translateY(-95px);
+}
+
+.dot56{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(351deg) translateY(-95px);
+}
+
+.dot57{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(357deg) translateY(-95px);
+}
+
+.dot58{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(363deg) translateY(-95px);
+}
+
+.dot59{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(369deg) translateY(-95px);
+}
+
+.dot60{
+  position: absolute;
+  background: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(375deg) translateY(-95px);
+}
+
+.info{
+  color: #fff;
+  text-align: center;
+}
+
+.date{
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h1{
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.kcal{
+  padding-bottom: 10px;
+}
+
+@keyframes circle{
+  0%{
+    border: #F85B5B 1;
+  }
+  100%{
+    border: #F85B5B 0;
+  }
+}
